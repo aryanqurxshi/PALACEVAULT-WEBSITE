@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SHOWCASE- PALACEVAULT </title>
+    <style>
+        body {
+            font-family: 'Verdana'; 
+            margin: 0;
+            padding: 0;
+            background-color: #7b57c3;
+        }
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            font-family: 'Trebuchet MS';
+        }
+        
+        header a {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+        }
+        
+        header img {
+            max-width: 100px;
+            border-radius: 8px;
+        }
+        
+        header h1 {
+            margin: 10px 0 5px;
+            font-size: 24px;
+        }
+        
+        header p {
+            margin: 0;
+            font-size: 14px;
+            color: #ccc;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #000000;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            padding: 5px;
+            border: 1px solid #7b57c3;
+            border-radius: 5px;
+            background-color: #7b57c3;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgb(255, 255, 255);
+        }
+        .sneaker-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .sneaker-item {
+            text-align: center;
+            padding: 15px;
+            border: 1px solid #7b57c3;
+            border-radius: 8px;
+            background-color: #ffffff;
+        }
+        .sneaker-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .sneaker-item h3 {
+            margin: 15px 0 10px;
+            font-size: 18px;
+        }
+        
+        /* Popup Styles */
+        .popup {
+            display: none;
+            position: fixed;
+            z-index: 10;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        .popup-content {
+            position: relative;
+            background-color: white;
+            margin: 15% auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 500px;
+            text-align: center;
+        }
+        
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            color: #333;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        .close-btn:hover {
+            color: red;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <header>
+        <a href="about.html">
+            <img src="palacevault-html.png" alt="PALACEVAULT">
+            <h1>PALACEVAULT</h1>
+            <p>AJAX ONTARIO 🍁</p>
+        </a>
+    </header>
+
+<nav>
+    <a href="about.html">ABOUT</a>
+    <a href="showcase.html">SHOWCASE</a>
+    <a href="shop.html">SHOP</a>
+    <a href="contact.html">CONTACT</a>
+</nav>
+
+<div class="container">
+    <div class="sneaker-grid">
+        <div class="sneaker-item">
+            <img src="TravisScottCanary.jpg" alt="TravisScottCanary">
+            <h3> Air Jordan 1 Low Travis Scott "Canary" </h3>
+            <p>$700 CAD 🍁</p>
+        </div>
+
+        <div class="sneaker-item">
+            <img src="AJ4WetCement.jpg" alt="AJ4WetCement">
+            <h3> Air Jordan 4 "Wet Cement" </h3>
+            <p>$380 CAD 🍁</p>
+        </div>
+
+        <div class="sneaker-item">
+            <img src="AJ1BredToe.jpg" alt="AJ1BredToe">
+            <h3> Air Jordan 1 "Bred Toe" </h3>
+            <p>$600 CAD 🍁</p>
+        </div>
+
+        <div class="sneaker-item">
+            <img src="AJ11Bred.jpg" alt="AJ11Bred">
+            <h3> Air Jordan 11 "Bred" </h3>
+            <p>$500 CAD 🍁</p>
+        </div>
+
+        <div class="sneaker-item">
+            <img src="AJ4MetallicGold.jpg" alt="AJ4MetallicGold">
+            <h3> Air Jordan 4 "Metallic Gold" </h3>
+            <p>$350 CAD 🍁</p>
+        </div>
+
+        <div class="sneaker-item">
+            <img src="AJ4PSG.jpg" alt="AJ4PSG">
+            <h3> Air Jordan 4 "PSG" </h3>
+            <p>$450 CAD 🍁</p>
+        </div>
+        
+
+
+
+
+</body>
+</html>
